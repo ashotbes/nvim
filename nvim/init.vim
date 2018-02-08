@@ -106,7 +106,7 @@ set shiftwidth=4
 set softtabstop=4
 set autoindent
 set termguicolors
-color solarized8_dark
+color base16-dracula
 
 " Work with system clipboard, always. And don't forget 'sudo apt install xclip'.
 set clipboard+=unnamedplus
