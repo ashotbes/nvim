@@ -1,1 +1,1 @@
-# nvim-config-with-colors-chemes-
+# nvim-config
