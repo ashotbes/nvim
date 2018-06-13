@@ -9,6 +9,9 @@ Plug 'lifepillar/vim-solarized8'
 Plug 'zanglg/nova.vim'
 Plug 'aliou/moriarty.vim'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
+Plug 'nbouscal/vim-stylish-haskell'
+Plug 'vim-scripts/hlint'
 
 " For fast searching in project. And don't forget make 'sudo apt install ack-grep'.
 Plug 'mileszs/ack.vim'
@@ -78,7 +81,7 @@ filetype indent on
 set encoding=utf8
 
 " Sets the theme for Airline.
-let g:airline_theme='onedark'
+let g:airline_theme='base16'
 
 " Devicons fonts for Airline.
 let g:airline_powerline_fonts=1
@@ -146,4 +149,3 @@ let g:haskell_indent_in = 0
 " Always check current file, so we can build project any time.
 autocmd BufEnter * silent! lcd %:p:h
 set makeprg=stack\ install
-
